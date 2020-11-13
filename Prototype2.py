@@ -420,6 +420,7 @@ controlboard = ControlBoard(Parking)
 #d4 = Guest("Mohammad","Abdallah",c4,controlboard,Parking)
 
 #Just for Testing purposes.
+"""
 p1 = controlboard.Welcome()
 p1.ParkCar()
 llist.printList(llist.head)
@@ -428,7 +429,6 @@ p2 = controlboard.Welcome()
 p2.ParkCar()
 llist.printList(llist.head)
 p2.RequestCar()
-"""
 p2 = controlboard.Welcome()
 p2.ParkCar()
 llist.printList(llist.head)
